@@ -1,13 +1,10 @@
 .header-main{
     
-
 }
-
-
 
 .logo-part1{
     color:#4D5AE5;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -21,7 +18,7 @@
     margin-right: 76px;
     color: #2E2F42;
     text-decoration: none;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -177,11 +174,15 @@
             margin-right: 24px;
         }
 
+        .footer-main{
+            background-color: #2e2f42;
+        }
+
 
         /*-------------portfolio-------------*/
 
         .portfolio-section-one-list{
-
+            margin-left: 427px;
         }
 
         .portfolio-section-one-list-element-main{
@@ -191,10 +192,10 @@
             align-items: flex-start;
             border-radius: 4px;
             background: var(--ocean, #404BBF);
-            box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-        }
+            }
         .portfolio-section-one-list-element{
             display: inline-block;
+            margin-right: 24px;
             padding: 12px 24px;
             border-radius: 4px;
             border: 1px solid var(--cornflower, #E7E9FC);
@@ -210,4 +211,13 @@
             font-weight: 500;
             line-height: 24px;
             letter-spacing: 0.64px;
+        }
+
+        .portfolio-section-two-list{
+            margin-left: 156px;
+        }
+
+        .portfolio-section-two-list-element{
+            display: inline-block;
+            margin-right: 24px;
         }
