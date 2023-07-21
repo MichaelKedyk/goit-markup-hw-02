@@ -233,6 +233,13 @@
         .portfolio-section-one-list-element{
             display: inline-block;
             text-decoration: none;
+            font-family: Roboto, sans-serif;
+            font-weight: 500px;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 1.04em;
+            color: #4d5ae5 ;
+
         }
 
         .portfolio-button-main{
