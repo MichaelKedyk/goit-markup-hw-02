@@ -1,18 +1,15 @@
 .header-main{
     
-
 }
-
-
 
 .header-logo{
     color:#4D5AE5;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 21px;
-    letter-spacing: 0.54px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     padding: 25px 0 25px 156px;
     text-decoration: none;
@@ -43,11 +40,13 @@
 .header-list{
     display: inline-block;
     margin-right: 0;
-    ;
 }
 
 .header-element{
+    color: #434455;
     text-decoration: none;
+    color: #2E2F42;
+    /* text-orientation: initial; */
 }
 
 .header-list-element{
@@ -59,12 +58,12 @@
 .contacts-block{
     display: inline-block;
     margin-right: 40px;
-    margin-left: 330px;
+    margin-left: 250px;
 }
 .header-contact{
     display: inline-block;
     margin-right: 40px;
-    text-decoration: none;
+    text-decoration: none;;
 }
 
 
@@ -81,12 +80,9 @@
     margin-top: 0;
     display: flex;
     justify-content: center;
-    align-items: center;      
+    align-items: center;
 }
 
-.first-section-list-element{
-    text-decoration: none;
-}
 
 .main-title{
     color:  #FFF;
@@ -101,11 +97,11 @@
 
 .first-section-button{
     color: #FFF;
-    margin-left: 336px;
+    margin-left: 436px;
     padding: 16px 32px;
     gap: 10px;
     border-radius: 4px;
-    background: var(--iris, #4D5AE5);
+    background:#4D5AE5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     text-decoration: none;
     }
@@ -119,7 +115,7 @@
 .second-section-list-element{
     display: inline-block;
     width: 264px;
-        color: var(--navyblue, #2E2F42);
+        color:#2E2F42;
         font-family: Roboto;
         font-size: 20px;
         font-style: normal;
@@ -134,7 +130,7 @@
         .third-section-title {
             margin-left: 590px;
             margin-top: 120px;
-            color: var(--navyblue, #2E2F42);
+            color:#2E2F42;
             font-family: Roboto;
             font-size: 36px;
             font-style: normal;
@@ -159,7 +155,7 @@
         .fourth-section-title{
             margin-left: 650px;
             margin-top: 120px;
-            color: var(--navyblue, #2E2F42);
+            color:#2E2F42;
             font-family: Roboto;
             font-size: 36px;
             font-style: normal;
@@ -179,44 +175,87 @@
             margin-right: 24px;
         }
 
-        .footer-main{
+        .footer-main {
             background-color: #2e2f42;
-        }
+            width: 1440px;
+            height: 312px;
+            flex-shrink: 0;
+            }
+        
+        .footer-logo {
+            color: #4D5AE5;
+            font-family: Raleway, sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            padding: 25px 0 25px 156px;
+            text-decoration: none;
+            }
+        
+        .footer-logo-part {
+            margin-right: 76px;
+            color: #F4F4FD;
+            text-decoration: none;
+            font-family: Raleway;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 21px;
+            letter-spacing: 0.54px;
+            text-transform: uppercase;
+            text-decoration: none;
+            }
+        
+        .footer-main-text {
+            color: #F4F4FD;
+            width: 264px;
+            margin-left: 156px;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.32px;
+            }
 
 
         /*-------------portfolio-------------*/
 
         .portfolio-section-one-list{
-            margin-left: 427px;
+            margin-left: 451px;
+            margin-top: 108px;
+            text-decoration: none;
         }
 
-        .portfolio-section-one-list-element-main{
-            display: inline-block;
-            margin-right: 24px;
-            padding: 12px 24px;
-            align-items: flex-start;
-            border-radius: 4px;
-            background: var(--ocean, #404BBF);
-            }
         .portfolio-section-one-list-element{
             display: inline-block;
-            margin-right: 24px;
-            padding: 12px 24px;
-            border-radius: 4px;
-            border: 1px solid var(--cornflower, #E7E9FC);
-            background: var(--cloud, #F4F4FD);
+            text-decoration: none;
         }
 
         .portfolio-button-main{
-            color: var(--white, #FFF);
-            text-align: center;
-            font-family: Roboto;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 24px;
-            letter-spacing: 0.64px;
+            color: #FFF;
+            margin-right: 48px;
+            gap: 10px;
+            border-radius: 4px;
+            background: #4D5AE5;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+            text-decoration: none;
         }
+        .portfolio-button{
+            color: #4D5AE5;
+            margin-right: 48px;
+            gap: 10px;
+            border-radius: 4px;
+            background: #E7E9FC;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+            text-decoration: none;
+        }
+        
+
+
 
         .portfolio-section-two-list{
             margin-left: 156px;
@@ -225,4 +264,51 @@
         .portfolio-section-two-list-element{
             display: inline-block;
             margin-right: 24px;
+        }
+
+
+        .footer-main{
+            width: 1440px;
+            height: 312px;
+            flex-shrink: 0;
+        }
+        .footer-logo {
+            color: #4D5AE5;
+            font-family: Raleway, sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            padding: 25px 0 25px 156px;
+            text-decoration: none;
+        
+        
+                }
+        
+        .footer-logo-part {
+            margin-right: 76px;
+            color: #F4F4FD;
+            text-decoration: none;
+            font-family: Raleway;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 21px;
+            letter-spacing: 0.54px;
+            text-transform: uppercase;
+            text-decoration: none;
+                }
+
+        .footer-main-text{
+            color: #F4F4FD;
+            width: 264px;
+            margin-left: 156px;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.32px;
         }
