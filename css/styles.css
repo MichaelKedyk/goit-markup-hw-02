@@ -44,8 +44,6 @@
 
 .header-element{
     color: #434455;
-    text-decoration: none;
-    color: #2E2F42;
     /* text-orientation: initial; */
 }
 
@@ -55,7 +53,8 @@
     margin-right: 40px;
 }
 
-.contacts-block{
+.contacts-block{ 
+    font-style: normal;
     display: inline-block;
     margin-right: 40px;
     margin-left: 250px;
