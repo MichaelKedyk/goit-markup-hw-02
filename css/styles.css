@@ -126,6 +126,7 @@
     font-size: 16px;
     line-height: 1.5;
     color: #434455 ;
+    letter-spacing: 0.02em;
 }
 
 .second-section-list-element{
@@ -152,7 +153,7 @@
             font-style: normal;
             font-weight: 700;
             line-height: 1.11;
-            letter-spacing: 0.72px;
+            letter-spacing: 0.02em;
             text-transform: capitalize;
             text-align: center;
         }
@@ -169,6 +170,10 @@
 
         /*fourth section*/
 
+.forth-section{
+    color: #F4F4FD ;
+}
+
         .fourth-section-title{
             margin-left: 650px;
             margin-top: 120px;
@@ -177,9 +182,10 @@
             font-size: 36px;
             font-style: normal;
             font-weight: 700;
-            line-height: 40px;
+            line-height: 1.11;
             letter-spacing: 0.72px;
             text-transform: capitalize;
+            text-align: center;
         }
 
         .fourth-section-list{
@@ -190,6 +196,14 @@
         .fourth-section-list-element{
             display: inline-block;
             margin-right: 24px;
+            background-color: #FFFFFF;
+        }
+
+        .fourth-section-paragraph{
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455 ;
         }
 
         .footer-main {
