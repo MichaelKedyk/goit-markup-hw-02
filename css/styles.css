@@ -115,6 +115,19 @@
     margin-left: 156px;
 }
 
+.second-section-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02;
+}
+
+.second-section-paragraph{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455 ;
+}
+
 .second-section-list-element{
     display: inline-block;
     width: 264px;
@@ -138,9 +151,10 @@
             font-size: 36px;
             font-style: normal;
             font-weight: 700;
-            line-height: 40px;
+            line-height: 1.11;
             letter-spacing: 0.72px;
             text-transform: capitalize;
+            text-align: center;
         }
 
         .third-section-list{
