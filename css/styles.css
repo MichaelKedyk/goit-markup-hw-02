@@ -177,7 +177,7 @@
         .fourth-section-title{
             margin-left: 650px;
             margin-top: 120px;
-            color:#2e2f42 ; 
+            color: #2e2f42 ; 
             font-family: Roboto;
             font-size: 36px;
             font-style: normal;
@@ -288,7 +288,7 @@
         .portfolio-header-contact{
             line-height: 1.5;
             letter-spacing: 0.02em;
-            color: #2e2f42;
+            color: #434455;
             text-decoration: none;
         }
 
@@ -349,29 +349,32 @@
         }
 
         .portfolio-button-main{
-            color: #FFF;
-            margin-right: 48px;
-            gap: 10px;
-            border-radius: 4px;
-            background: #4D5AE5;
-            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-            text-decoration: none;
+            font-family: Roboto, sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #4d5ae5;
+            background-color: #F4F4FD;
+            cursor: pointer;
         }
         .portfolio-button{
-            color: #4D5AE5;
-            margin-right: 48px;
-            gap: 10px;
-            border-radius: 4px;
-            background: #E7E9FC;
-            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-            text-decoration: none;
+            font-family: Roboto, sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 0.04em;
+                color: #4d5ae5
+                background-color: #F4F4FD;
+                cursor: pointer;
         }
         
 
 
 
         .portfolio-section-two-list{
-            margin-left: 156px;
+            list-style: none;
+            
         }
 
         .portfolio-section-two-list-element{
