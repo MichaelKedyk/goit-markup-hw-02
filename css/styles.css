@@ -45,9 +45,18 @@
     /* text-orientation: initial; */
 }
 
+.header-element:hover{
+    color: #404bbf;
+}
+.header-element:focus{
+    color: #404bbf;
+}
+
 .header-list-element{
-    text-decoration: none;
-    margin-right: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;    
 }
 
 .contacts-block{ 
@@ -58,6 +67,18 @@
 .header-contact{
     margin-right: 40px;
     text-decoration: none;;
+}
+
+.header-address-element{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.header-address-element:hover {
+    color: #404bbf;
+}
+
+.header-address-element:focus {
+    color: #404bbf;
 }
 
 
