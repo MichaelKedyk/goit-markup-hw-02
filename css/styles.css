@@ -4,8 +4,11 @@ body{
     background-color: #FFFFFF;
     color: #434455;
 }
+:root{
+    --brand-color:#4D5AE5;
+}
 .header-logo{
-    color:#4D5AE5;
+    color: var(--brand-color);
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -218,9 +221,6 @@ body{
 
         .footer-main {
             background-color:#2e2f42;
-            width: 1440px;
-            height: 312px;
-            flex-shrink: 0;
             }
         
         .footer-logo {
@@ -232,7 +232,6 @@ body{
             line-height: 1.17;
             letter-spacing: 0.03em;
             text-transform: uppercase;
-            padding: 25px 0 25px 156px;
             text-decoration: none;
             }
         
@@ -252,7 +251,6 @@ body{
         
         .footer-main-text {
             color: #F4F4FD;
-            width: 264px;
             margin-left: 156px;
             font-family: Roboto;
             font-size: 16px;
@@ -407,9 +405,6 @@ body{
 
 
         .footer-main{
-            width: 1440px;
-            height: 312px;
-            flex-shrink: 0;
         }
         .footer-logo {
             color: #4D5AE5;
@@ -441,7 +436,6 @@ body{
 
         .footer-main-text{
             color: #F4F4FD;
-            width: 264px;
             margin-left: 156px;
             font-family: Roboto;
             font-size: 16px;
