@@ -358,19 +358,15 @@
             background-color: #F4F4FD;
             cursor: pointer;
         }
-        .portfolio-button{
-            font-family: Roboto, sans-serif;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.04em;
-            color: #4d5ae5;
-            background-color: #F4F4FD;
-            cursor: pointer;
-        }
         
-
-
+        .portfolio-button-main:hover{
+            color: #FFFFFF;
+            background-color: #FFFFFF;
+        }
+        .portfolio-button-main:focus{
+            color: #FFFFFF;
+            background-color: #FFFFFF;
+        }
 
         .portfolio-section-two-list{
             list-style: none;
