@@ -11,7 +11,6 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding: 25px 0 25px 156px;
     text-decoration: none;
     
         
@@ -34,7 +33,6 @@
 /*------------------- header------------------ */
 
 .nav-header{
-    display: inline-block;
 }
 
 .header-list{
@@ -49,18 +47,15 @@
 
 .header-list-element{
     text-decoration: none;
-    display: inline-block;
     margin-right: 40px;
 }
 
 .contacts-block{ 
     font-style: normal;
-    display: inline-block;
     margin-right: 40px;
     margin-left: 250px;
 }
 .header-contact{
-    display: inline-block;
     margin-right: 40px;
     text-decoration: none;;
 }
@@ -75,9 +70,7 @@
     background-color: #2e2f42 ;
     flex-shrink: 0;
     margin-top: 0;
-    display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 
@@ -130,7 +123,6 @@
 }
 
 .second-section-list-element{
-    display: inline-block;
     width: 264px;
         color:#2E2F42;
         font-family: Roboto;
@@ -164,7 +156,6 @@
         }
 
         .third-section-list-element{
-            display: inline-block;
             margin-right: 24px;
         }
 
@@ -175,9 +166,7 @@
 }
 
         .fourth-section-title{
-            margin-left: 650px;
-            margin-top: 120px;
-            color: #2e2f42 ; 
+            color: #2e2f42;
             font-family: Roboto;
             font-size: 36px;
             font-style: normal;
@@ -194,8 +183,6 @@
         }
 
         .fourth-section-list-element{
-            display: inline-block;
-            margin-right: 24px;
             background-color: #FFFFFF;
         }
 
@@ -308,7 +295,6 @@
             letter-spacing: 0.03em;
             text-transform: uppercase;
             color:#4d5ae5;
-            letter-spacing: 0.02em;
             text-decoration: none;
         }
 
@@ -321,7 +307,7 @@
 
         .portfolio-address-element{
             text-decoration: none;
-            color: #404BBF;
+            color: #434455;
         }
         .portfolio-address-element:hover{
             color: #404BBF; 
@@ -337,7 +323,6 @@
         }
 
         .portfolio-section-one-list-element{
-            display: inline-block;
             text-decoration: none;
             font-family: Roboto, sans-serif;
             font-weight: 500px;
@@ -361,11 +346,11 @@
         
         .portfolio-button-main:hover{
             color: #FFFFFF;
-            background-color: #FFFFFF;
+            background-color: #404BBF;
         }
         .portfolio-button-main:focus{
             color: #FFFFFF;
-            background-color: #FFFFFF;
+            background-color: #404BBF;
         }
 
         .portfolio-section-two-list{
@@ -378,7 +363,6 @@
         }
 
         .portfolio-section-two-list-element{
-            display: inline-block;
             margin-right: 24px;
         }
 
@@ -413,11 +397,10 @@
             line-height: 1.17;
             letter-spacing: 0.03em;
             text-transform: uppercase;
-            padding: 25px 0 25px 156px;
             text-decoration: none;
         
         
-                }
+        }
         
         .footer-logo-part {
             margin-right: 76px;
@@ -431,7 +414,7 @@
             letter-spacing: 0.54px;
             text-transform: uppercase;
             text-decoration: none;
-                }
+        }
 
         .footer-main-text{
             color: #F4F4FD;
