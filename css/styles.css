@@ -360,13 +360,13 @@
         }
         .portfolio-button{
             font-family: Roboto, sans-serif;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 1.5;
-                letter-spacing: 0.04em;
-                color: #4d5ae5
-                background-color: #F4F4FD;
-                cursor: pointer;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #4d5ae5;
+            background-color: #F4F4FD;
+            cursor: pointer;
         }
         
 
@@ -374,7 +374,7 @@
 
         .portfolio-section-two-list{
             list-style: none;
-            
+
         }
 
         .portfolio-section-two-list-element{
