@@ -269,6 +269,18 @@
             color:#404bbf;
         }
 
+        .portfolio-header-list-link{
+            color: #2e2f42;
+            text-decoration: none;
+        }
+        .portfolio-header-list-link:hover {
+            color: #404bbf;
+        }
+        
+        .portfolio-header-list-link:focus {
+            color: #404bbf;
+        }
+
         .portfolio-address-list{
             list-style: none;
         }
