@@ -280,6 +280,30 @@
             color: #404bbf ;
         }
 
+        .portfolio-header-logo{
+            letter-spacing: 0.02em;
+            color: #2e2f42;
+            text-decoration: none;
+        }
+
+        .portfolio-header-logo:hover{
+            color: #404BBF;
+        }
+        .portfolio-header-logo:focus{
+            color: #404BBF;
+        }
+
+        .portfolio-address-element{
+            text-decoration: none;
+            color: #404BBF;
+        }
+        .portfolio-address-element:hover{
+            color: #404BBF;
+        }
+        .portfolio-address-element:focus{
+            color: #404BBF;
+        }
+
         .portfolio-section-one-list{
             margin-left: 451px;
             margin-top: 108px;
