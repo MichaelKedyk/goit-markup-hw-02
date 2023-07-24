@@ -41,7 +41,6 @@ body{
 }
 
 .header-list{
-    margin-right: 0;
 }
 
 .header-element{
@@ -66,8 +65,6 @@ body{
 
 .contacts-block{ 
     font-style: normal;
-    margin-right: 40px;
-    margin-left: 250px;
 }
 .header-contact{
     margin-right: 40px;
@@ -130,7 +127,6 @@ body{
 }
 
 .second-section-list{
-    margin-left: 156px;
 }
 
 .second-section-title{
@@ -149,7 +145,6 @@ body{
 }
 
 .second-section-list-element{
-    width: 264px;
         color:#2E2F42;
         font-family: Roboto;
         font-size: 20px;
@@ -157,14 +152,11 @@ body{
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.4px;
-        margin-top: 120px;
 }
 
 
 
         .third-section-title {
-            margin-left: 590px;
-            margin-top: 120px;
             color:#2E2F42;
             font-family: Roboto;
             font-size: 36px;
@@ -177,12 +169,9 @@ body{
         }
 
         .third-section-list{
-            margin-left: 146px;
-            margin-bottom: 72px;
         }
 
         .third-section-list-element{
-            margin-right: 24px;
         }
 
         /*fourth section*/
@@ -204,8 +193,6 @@ body{
         }
 
         .fourth-section-list{
-            margin-left: 156px;
-            margin-bottom: 72px;
         }
 
         .fourth-section-list-element{
@@ -236,7 +223,6 @@ body{
             }
         
         .footer-logo-part {
-            margin-right: 76px;
             color: #F4F4FD;
             text-decoration: none;
             font-family: Raleway;
@@ -251,7 +237,6 @@ body{
         
         .footer-main-text {
             color: #F4F4FD;
-            margin-left: 156px;
             font-family: Roboto;
             font-size: 16px;
             font-style: normal;
@@ -384,7 +369,6 @@ body{
         }
 
         .portfolio-section-two-list-element{
-            margin-right: 24px;
         }
 
         .portfolio-main-list-title{
@@ -421,7 +405,6 @@ body{
         }
         
         .footer-logo-part {
-            margin-right: 76px;
             color: #F4F4FD;
             text-decoration: none;
             font-family: Raleway;
@@ -436,7 +419,6 @@ body{
 
         .footer-main-text{
             color: #F4F4FD;
-            margin-left: 156px;
             font-family: Roboto;
             font-size: 16px;
             font-style: normal;
