@@ -171,19 +171,19 @@
         /*fourth section*/
 
 .forth-section{
-    color: #F4F4FD ;
+    background-color: #F4F4FD ;
 }
 
         .fourth-section-title{
             margin-left: 650px;
             margin-top: 120px;
-            color:#2E2F42;
+            color:#2e2f42 ; 
             font-family: Roboto;
             font-size: 36px;
             font-style: normal;
             font-weight: 700;
             line-height: 1.11;
-            letter-spacing: 0.72px;
+            letter-spacing: 0.02em;
             text-transform: capitalize;
             text-align: center;
         }
