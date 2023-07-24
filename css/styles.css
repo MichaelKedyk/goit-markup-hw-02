@@ -255,6 +255,31 @@
 
         /*-------------portfolio-------------*/
 
+        .portfolio-header-list-element{
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.02;
+            color: #2e2f42 ;
+        }
+
+        .portfolio-address-list{
+            list-style: none;
+        }
+
+        .portfolio-header-contact{
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            text-decoration: none;
+        }
+
+        .portfolio-header-contact:hover{
+            color: #404bbf ;
+        }
+
+        .portfolio-header-contact:focus{
+            color: #404bbf ;
+        }
+
         .portfolio-section-one-list{
             margin-left: 451px;
             margin-top: 108px;
