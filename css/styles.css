@@ -258,15 +258,15 @@
         .portfolio-header-list-element{
             font-weight: 500;
             line-height: 1.5;
-            letter-spacing: 0.02;
-            color: #2e2f42   ;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
             text-decoration: none;
         }
         .portfolio-header-list-element:hover{
-            color:#404BBF
+            color:#404bbf;
         }
         .portfolio-header-list-element:focus{
-            color:#404BBF
+            color:#404bbf;
         }
 
         .portfolio-address-list{
@@ -276,15 +276,16 @@
         .portfolio-header-contact{
             line-height: 1.5;
             letter-spacing: 0.02em;
+            color: #2e2f42;
             text-decoration: none;
         }
 
         .portfolio-header-contact:hover{
-            color: #404bbf ;
+            color: #404bbf;
         }
 
         .portfolio-header-contact:focus{
-            color: #404bbf ;
+            color: #404bbf;
         }
 
         .portfolio-header-logo{
